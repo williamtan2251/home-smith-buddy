@@ -1,0 +1,14 @@
+{
+  "domain": "home_smith_buddy",
+  "name": "Home Smith Buddy",
+  "version": "0.1.0",
+  "documentation": "https://github.com/williamtan2251/home-smith-buddy",
+  "issue_tracker": "https://github.com/williamtan2251/home-smith-buddy/issues",
+  "codeowners": ["@williamtan2251"],
+  "config_flow": true,
+  "single_config_entry": true,
+  "dependencies": ["http", "frontend", "panel_custom", "websocket_api"],
+  "requirements": ["aiosmtplib==3.0.2"],
+  "iot_class": "cloud_push",
+  "integration_type": "service"
+}

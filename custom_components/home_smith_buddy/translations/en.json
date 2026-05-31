@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Home Smith Buddy",
+        "description": "Configure the SMTP server used to email tickets to your admin.",
+        "data": {
+          "host": "SMTP host",
+          "port": "SMTP port",
+          "username": "Username (optional)",
+          "password": "Password (optional)",
+          "sender": "From address",
+          "recipient": "Admin recipient address",
+          "encryption": "Encryption"
+        }
+      },
+      "reconfigure": {
+        "title": "Home Smith Buddy",
+        "description": "Update the SMTP settings used to email tickets.",
+        "data": {
+          "host": "SMTP host",
+          "port": "SMTP port",
+          "username": "Username (optional)",
+          "password": "Password (optional)",
+          "sender": "From address",
+          "recipient": "Admin recipient address",
+          "encryption": "Encryption"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the SMTP server with these settings."
+    },
+    "abort": {
+      "single_instance_allowed": "Home Smith Buddy is already configured.",
+      "reconfigure_successful": "SMTP settings updated."
+    }
+  }
+}

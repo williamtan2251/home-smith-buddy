@@ -1,0 +1,29 @@
+create_ticket:
+  name: Create ticket
+  description: Email a ticket to the configured Home Assistant admin.
+  fields:
+    subject:
+      name: Subject
+      description: Short summary of the issue.
+      required: true
+      example: Living room light unresponsive
+      selector:
+        text:
+    message:
+      name: Message
+      description: Full description of the issue.
+      required: true
+      example: The ceiling light in the living room has not responded since this morning.
+      selector:
+        text:
+          multiline: true
+    priority:
+      name: Priority
+      description: How urgent the ticket is.
+      default: normal
+      selector:
+        select:
+          options:
+            - low
+            - normal
+            - high
