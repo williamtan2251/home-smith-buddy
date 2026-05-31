@@ -10,5 +10,5 @@
   "issue_tracker": "https://github.com/williamtan2251/home-smith-buddy/issues",
   "requirements": ["aiosmtplib==3.0.2"],
   "single_config_entry": true,
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
